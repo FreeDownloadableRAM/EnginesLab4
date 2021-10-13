@@ -8,10 +8,10 @@ public class PersistentManagerScript : MonoBehaviour
     public static PersistentManagerScript Instance {get; private set;}
 
     //counter
-    public int scoreCounter;
+    public int Value;
 
     //on awake
-    public void Awake()
+    private void Awake()
     { 
         if (Instance == null)
         {
